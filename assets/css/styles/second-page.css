@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.secondPage {
+    width: 100%;
+    height: 130%;
+    background-image: url("../../images/pageTwo/bg.png");
+    position: relative;
+    bottom: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.emptyPageTwo {
+    height: 40%;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.secondPage section h3, .secondPage section h4 {
+    font-family: "Roboto Light", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: calc(2.5vw + 12px);
+    line-height: calc(2.5vw + 14px);
+    color: #FFFFFF;
+}
+
+.secondPage section h4 {
+    font-size: calc(1.5vw + 12px);
+    line-height: calc(1.5vw + 14px);
+    margin-top: 10px;
+}
+
+.more {
+    position: absolute;
+    display: flex;
+    left: 25%;
+    bottom: 35%;
+}
+
+.more .moreImage {
+    background-image: url("../../images/pageTwo/more.png");
+    width: 15px;
+    height: 70px;
+}
+
+.scrollImage {
+    background-image: url("../../images/pageOne/arrow.png");
+    width: 35px;
+    background-size: cover;
+    height: 75px;
+    position: absolute;
+    bottom: 50%;
+    left: 113%;
+}
+
+.additionalInformation {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.additionalInformation h3, .additionalInformation h4 {
+    font-family: "Roboto Light", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: calc(3.5vw + 12px);
+    line-height: 109.4%;
+    color: #FDF9F9;
+}
+
+.additionalInformation h4 {
+    color: #FCC9C9;
+    font-size: calc(2vw + 12px);
+}
+
+.rectanglesPageTwo {
+    height: 17%;
+    width: 220px;
+    display: flex;
+    position: relative;
+}
+
+.bigRectangle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../images/pageTwo/bigRectanglePageTwo.png");
+    background-repeat: no-repeat;
+    top: 70%;
+}
+
+.smallRectangle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../images/pageTwo/smallRectanglePageTwo.png");
+    background-repeat: no-repeat;
+    left: 7%;
+    top: 106%;
+}

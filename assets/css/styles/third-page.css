@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.thirdPage {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 70%;
+}
+
+.first-container {
+    height: 50%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.first-container-image {
+    width: 100%;
+    margin: auto;
+    background-position-x: center;
+    height: 70%;
+    background-image: url("../../images/pageThree/phoneStyle-1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.emptyPageThree {
+    height: 50%;
+}
+
+.first-container-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+}
+
+.first-container-content b {
+    font-family: "Roboto Light", sans-serif;
+    font-weight: 500;
+    font-size: calc(1.5vw + 12px);
+    line-height: calc(1.5vw + 13px);
+    color: #000;
+}
+
+.first-container-content p {
+    font-family: "Roboto Light", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: calc(1vw + 12px);
+    line-height: calc(1vw + 13px);
+    color: #141414;
+    text-align: center;
+}
+
+.second-container {
+    width: 100%;
+    height: 50%;
+    margin-top: 30%;
+}
+
+.second-container-image {
+    background-image: url("../../images/pageThree/phoneStyle-2.png");
+    width: 100%;
+    margin: auto;
+    background-position-x: center;
+    height: 70%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.rectanglesPageThree {
+    position: relative;
+    width: 150px;
+    height: 150px;
+
+}
+
+.bigRectanglePageThree {
+    background-image: url("../../images/pageThree/bigRectanglePageThree.png");
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 145%;
+}
+
+.smallRectanglePageThree {
+    background-image: url("../../images/pageThree/smallRectanglePageThree.png");
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 90%;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.third-container {
+    width: 100%;
+    height: 50%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.third-container-image {
+    background-image: url("../../images/pageThree/phoneStyle-3.png");
+    width: 100%;
+    height: 70%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.rectanglesThirdContainer {
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.rightHandRectangle {
+    background-image: url("../../images/pageThree/rightHandRectangle.png");
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom: 100%;
+    background-position-x: right;
+}
+
+.fourth-container {
+    height: 50%;
+    width: 100%;
+}
+
+.fourth-container-image {
+    background-image: url("../../images/pageThree/phoneStyle-4.png");
+    width: 100%;
+    height: 70%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.fifth-container {
+    height: 50%;
+    width: 100%;
+}
+
+.fifth-container-image {
+    background-image: url("../../images/pageThree/phoneStyle-5.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    width: 100%;
+    height: 70%;
+}
+
+.rectanglesFifthContainer {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.fifthContainerBigRectangle {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    background-image: url("../../images/pageThree/lastContainerBigRectangle.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 30%;
+    bottom: 170%;
+    background-position-x: right;
+}
+
+.fifthContainerSmallRectangle {
+    position: absolute;
+    height: 30%;
+    width: 30%;
+    background-image: url("../../images/pageThree/lastContainerSmallRectangle.png");
+    background-size: contain;
+    left: 70%;
+    bottom: 169%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}

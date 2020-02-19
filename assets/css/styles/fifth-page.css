@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.fifthPage {
+    width: 100%;
+    height: 100%;
+}
+
+.fifthPage h3 {
+    font-family: "Roboto Light", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: calc(3vw + 12px);
+    line-height: calc(3vw + 14px);
+    color: #000000;
+}
+
+.textWrapper1 {
+    width: 80%;
+    margin: auto;
+}
+
+.containerFifthPage {
+    height: 40%;
+    width: 80%;
+    min-width: 250px;
+    min-height: 250px;
+    max-width: 450px;
+    max-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 0 43px 0 rgba(0,0,0,0.75);
+    margin: auto;
+    margin-top: 15%;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.containerFifthPage h3 {
+    font-family: "Roboto Light", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(1.5vw + 12px);
+    line-height: calc(1.5vw + 14px);
+    color: #000000;
+}
+
+.textWrapper2 h4 {
+    font-family: "Roboto Light", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: calc(0.5vw + 12px);
+    line-height: calc(1vw + 12px);
+    text-align: center;
+    color: #141414;
+}
+
+.textWrapper2 {
+    width: 60%;
+}

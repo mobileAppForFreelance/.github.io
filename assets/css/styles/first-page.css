@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.hundredPercentHeight {
+    height: 100%;
+}
+
+.firstPage {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../images/pageOne/bg.png");
+    background-size: 100% 100%;
+    position: relative;
+    z-index: 9;
+}
+
+.contactAndInformation {
+    width: 100%;
+    height: 20%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.information {
+    display: flex;
+
+}
+
+.nokia {
+    background-image: url("../../images/pageOne/nokia.png");
+    background-size: contain;
+    width: 30%;
+    background-repeat: no-repeat;
+    min-width: 65px;
+    max-width: 120px;
+}
+
+.texts {
+    width: 70%;
+}
+
+.title {
+    margin: 10px 0;
+    font-family: "Roboto Light", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: calc(1.5vw + 12px);
+    line-height: calc(1.5vw + 13px);
+    color: #FCF2F2;
+    min-width: 18px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.description {
+    font-family: "Roboto Light", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: calc(1vw + 12px);
+    line-height: calc(1vw + 13px);
+    color: #FCF2F2;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.phone {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.phoneIcon {
+    background-image: url("../../images/pageOne/call.png");
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.phoneNumber {
+    font-family: "Roboto Light", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: calc(1vw + 12px);
+    line-height: calc(1vw + 13px);
+    color: #FFFDFD;
+    padding: 0 10px;
+}
+
+.serviceImages {
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.rectangles {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+}
+
+.secondRectangle {
+    height: 50%;
+    background-image: url("../../images/pageOne/smallRectangle.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 2%;
+    top: 15%;
+}
+
+.firstRectangle {
+    position: absolute;
+    background-image: url("../../images/pageOne/bigReactangle.png");
+    background-repeat: no-repeat;
+    margin-right: 25px;
+    width: 100%;
+    height: 50%;
+    bottom: 30%;
+    top: 23%;
+}
+
+
+.productModels {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    transform: scale(1.2);
+    background-repeat: no-repeat;
+    background-image: url("../../images/pageOne/planshetAndPhone.png");
+    width: 75%;
+    height: 75%;
+}
+
+.scroll {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scrollText {
+    background-repeat: no-repeat;
+    background-image: url("../../images/pageOne/scroll.png");
+    background-position: center;
+    width: 100%;
+    height: 50%;
+}
+
+
+.arrow {
+    background-repeat: no-repeat;
+    background-image: url("../../images/pageOne/arrow.png");
+    background-position-x: center;
+    width: 100%;
+    height: 50%;
+}
+
+.aboutActions {
+    width: 100%;
+    height: 30%;
+    display: flex;
+}
+
+.empty {
+    width: 15%;
+    height: 100%;
+}
+
+.actions {
+    width: 55%;
+    height: 100%;
+}
+
+.actionText {
+    font-family: "Roboto Light", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: calc(1.8vw + 12px);
+    line-height: calc(1.8vw + 17px);
+    color: #FCF2F2;
+}
+
+.actionButton {
+    margin-top: 10px;
+    font-family: "Roboto Light", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(1.3vw + 12px);
+    line-height: calc(1.3vw + 17px);
+    text-align: center;
+    color: #fff;
+    background-color: initial;
+    cursor: pointer;
+    border-radius: 7vw;
+    border: 2px solid #fff;
+    padding: 5px 3.5vw;
+}
+
+.rectangles1 {
+    width: 30%;
+    height: 100%;
+    position: relative;
+}
+
+.firstRectangle1 {
+    background-image: url("../../images/pageOne/smallRectangleRight.png");
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    position: absolute;
+    top: -15%;
+}
+.secondRectangle1 {
+    position: absolute;
+    background-image: url("../../images/pageOne/bigReactangle.png");
+    transform: rotate(180deg);
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-position-x: inherit;
+    bottom: 28%;
+    top: 4%;
+}

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.pageSeven {
+    background-image: url("../../images/pageSeven/bg.png");
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+    align-items: center;
+}
+
+.pageSeven h3, .pageSeven h4 {
+    font-family: "Roboto Light", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: calc(2vw + 12px);
+    line-height: calc(2vw + 14px);
+    color: #FFFAFA;
+}
+
+.pageSeven h4 {
+    font-weight: normal;
+}
+
+.contentPageSeven {
+    width: 80%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.someContentPageSeven {
+    width: 80%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.someContentPageSeven h3, .someContentPageSeven h4 {
+    font-family: "Roboto Light", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: calc(1.3vw + 12px);
+    line-height: calc(1.3vw + 14px);
+    color: #FFFDFD;
+}
+
+.someContentPageSeven h4 {
+    font-size: calc(1.1vw + 12px);
+    line-height: calc(1.1vw + 14px);
+    font-weight: normal;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+}
+
+.star {
+    width: 23px;
+    height: 23px;
+    background-image: url("../../images/pageSeven/star.png");
+    background-size: 100% 100%;
+}
+
+.stars h5 {
+    font-family: "Roboto Light", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(0.5vw + 12px);
+    line-height: calc(0.5vw + 14px);
+    color: #000;
+    margin-left: 50px;
+}
+
+.wrapperSevenPage {
+    display: flex;
+    width: 90%;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftButton {
+    width: 50px;
+    background-image: url("../../images/pageSeven/leftButton.png");
+    background-size: 100% 100%;
+    height: 50px;
+}
+
+.rightButton {
+    width: 50px;
+    background-image: url("../../images/pageSeven/rightButton.png");
+    background-size: 100% 100%;
+    height: 50px;
+}
+
+.womenImage {
+    width: 250px;
+    background-image: url("../../images/pageSeven/women.png");
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+.pageSeven p {
+    font-family: "Roboto Light", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(1.6vw + 12px);
+    line-height: calc(1.6vw + 14px);
+    color: #FFF7F7;
+}
+.textWrapperPageSeven {
+    width: 80%;
+
+}
